@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: c9045a65bfb8ed64e95a98b47afc138e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3273639901225751515
+    second: Female_2_01_small_0
+  - first:
+      213: 1136998486517254887
+    second: Female_2_01_small_1
+  - first:
+      213: 3148249404869143023
+    second: Female_2_01_small_2
+  - first:
+      213: 8367221093670250926
+    second: Female_2_01_small_3
+  - first:
+      213: 1559891073373847409
+    second: Female_2_01_small_4
+  - first:
+      213: 1468927539590994904
+    second: Female_2_01_small_5
+  - first:
+      213: 1494176556417038610
+    second: Female_2_01_small_6
+  - first:
+      213: 1114318003972516189
+    second: Female_2_01_small_7
+  - first:
+      213: -2015232421797043963
+    second: Female_2_01_small_8
+  - first:
+      213: 8409387974364661198
+    second: Female_2_01_small_9
+  - first:
+      213: 1482268943756561494
+    second: Female_2_01_small_10
+  - first:
+      213: 2174829378066359322
+    second: Female_2_01_small_11
+  - first:
+      213: 1817720579019250558
+    second: Female_2_01_small_12
+  - first:
+      213: -5234278583562450456
+    second: Female_2_01_small_13
+  - first:
+      213: 518665975224646774
+    second: Female_2_01_small_14
+  - first:
+      213: 7814362772978551525
+    second: Female_2_01_small_15
+  - first:
+      213: 3424933637933691711
+    second: Female_2_01_small_16
+  - first:
+      213: -8029041333793682500
+    second: Female_2_01_small_17
+  - first:
+      213: 2084647772388805541
+    second: Female_2_01_small_18
+  - first:
+      213: -3397628964427219856
+    second: Female_2_01_small_19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female_2_01_small_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 385
+        width: 93
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc2355d6787e6c459b231fdeba6d2d4
+      internalID: 3273639901225751515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 386
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c881c9ee204976e43b0901446782ec67
+      internalID: 1136998486517254887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_2
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 386
+        width: 97
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf2080fe9c35234cb4b54c989d4ad45
+      internalID: 3148249404869143023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_3
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 386
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58db4fd083b94694996d70db66d5d637
+      internalID: 8367221093670250926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 387
+        width: 105
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc91f3b97a7f30245adfeafa13785dd6
+      internalID: 1559891073373847409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_5
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 387
+        width: 127
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab85ed593f9ceff4aa48c66b66530f15
+      internalID: 1468927539590994904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_6
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 387
+        width: 127
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba88b5bae87635547ac158ca1b6b25d2
+      internalID: 1494176556417038610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_7
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 387
+        width: 126
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a82a6169a497e4794ed0c73d583e28
+      internalID: 1114318003972516189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_8
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 387
+        width: 89
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13a1cd465496fc46a1e7bc1d89ad63c
+      internalID: -2015232421797043963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 259
+        width: 127
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4354f0fd6f47e429cbd9cc392c6d82
+      internalID: 8409387974364661198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 259
+        width: 127
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acd2c103a0195a4895fe3e732150ff2
+      internalID: 1482268943756561494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 259
+        width: 126
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff0cc4433130084d8ca253f8dc8d8b1
+      internalID: 2174829378066359322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 259
+        width: 127
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4447c28ed2ae54395e58cdc9662d7d
+      internalID: 1817720579019250558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_13
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 259
+        width: 126
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6446fdec1183c1043b1eb16f0824a0e4
+      internalID: -5234278583562450456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_14
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 259
+        width: 126
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0a2b667534d3648a822ed7fcb02410
+      internalID: 518665975224646774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 259
+        width: 126
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2e4a83958d6cd44aa6000bcc98e47d
+      internalID: 7814362772978551525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_16
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 262
+        width: 95
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26571b9d326267046b7a02cdccd3517e
+      internalID: 3424933637933691711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58930fa28f535fa4bafda767dd546f91
+      internalID: -8029041333793682500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 137
+        width: 93
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1b1a128162a8149a4267b7ce41713c
+      internalID: 2084647772388805541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_small_19
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 139
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5533a429495c3744292708a0b4b1e07a
+      internalID: -3397628964427219856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

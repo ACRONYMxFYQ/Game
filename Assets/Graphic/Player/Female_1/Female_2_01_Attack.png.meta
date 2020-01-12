@@ -1,0 +1,1159 @@
+fileFormatVersion: 2
+guid: b6fadabb77ca1b34e82f7e70fbc3f44e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7179304477634039974
+    second: Female_2_01_Attack_0
+  - first:
+      213: -6545120056892131899
+    second: Female_2_01_Attack_1
+  - first:
+      213: -1539453270189824472
+    second: Female_2_01_Attack_2
+  - first:
+      213: 6486961881403266799
+    second: Female_2_01_Attack_3
+  - first:
+      213: -6225352627618344111
+    second: Female_2_01_Attack_4
+  - first:
+      213: 797375240668378624
+    second: Female_2_01_Attack_5
+  - first:
+      213: 1041875931451218611
+    second: Female_2_01_Attack_6
+  - first:
+      213: -5579890808156305226
+    second: Female_2_01_Attack_7
+  - first:
+      213: -1993116240196918726
+    second: Female_2_01_Attack_8
+  - first:
+      213: 7969244156189487615
+    second: Female_2_01_Attack_9
+  - first:
+      213: -4901935163084958478
+    second: Female_2_01_Attack_10
+  - first:
+      213: -4160171031218830545
+    second: Female_2_01_Attack_11
+  - first:
+      213: 1207924601282956301
+    second: Female_2_01_Attack_12
+  - first:
+      213: -5348520991782301995
+    second: Female_2_01_Attack_13
+  - first:
+      213: 3696995081403187613
+    second: Female_2_01_Attack_14
+  - first:
+      213: -8195006181945335532
+    second: Female_2_01_Attack_15
+  - first:
+      213: -1582630951300157622
+    second: Female_2_01_Attack_16
+  - first:
+      213: 8317957297154878269
+    second: Female_2_01_Attack_17
+  - first:
+      213: -1380528203415308957
+    second: Female_2_01_Attack_18
+  - first:
+      213: 5219708707454251673
+    second: Female_2_01_Attack_19
+  - first:
+      213: 9116949621700654948
+    second: Female_2_01_Attack_20
+  - first:
+      213: 372483079728414859
+    second: Female_2_01_Attack_21
+  - first:
+      213: 9094618658551253377
+    second: Female_2_01_Attack_22
+  - first:
+      213: 8253835946411505656
+    second: Female_2_01_Attack_23
+  - first:
+      213: 3924352731839103774
+    second: Female_2_01_Attack_24
+  - first:
+      213: 3694657070868097956
+    second: Female_2_01_Attack_25
+  - first:
+      213: 489237156650897584
+    second: Female_2_01_Attack_26
+  - first:
+      213: 8785606283883781257
+    second: Female_2_01_Attack_27
+  - first:
+      213: -4728092518747693598
+    second: Female_2_01_Attack_28
+  - first:
+      213: 4656311907825288307
+    second: Female_2_01_Attack_29
+  - first:
+      213: 4520664939586142748
+    second: Female_2_01_Attack_30
+  - first:
+      213: -219397621332706927
+    second: Female_2_01_Attack_31
+  - first:
+      213: -3843429506507111829
+    second: Female_2_01_Attack_32
+  - first:
+      213: 6460405114621663458
+    second: Female_2_01_Attack_33
+  - first:
+      213: -7666433255713956440
+    second: Female_2_01_Attack_34
+  - first:
+      213: 5608581752441490332
+    second: Female_2_01_Attack_35
+  - first:
+      213: -547306430963350850
+    second: Female_2_01_Attack_36
+  - first:
+      213: 5977430698860379179
+    second: Female_2_01_Attack_37
+  - first:
+      213: 1897245054803394930
+    second: Female_2_01_Attack_38
+  - first:
+      213: -2287981331421687961
+    second: Female_2_01_Attack_39
+  - first:
+      213: -5928661124046203651
+    second: Female_2_01_Attack_40
+  - first:
+      213: 1689423994729617206
+    second: Female_2_01_Attack_41
+  - first:
+      213: 4049830194403935006
+    second: Female_2_01_Attack_42
+  - first:
+      213: 1393276049527800415
+    second: Female_2_01_Attack_43
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female_2_01_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 806
+        width: 100
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1525ba9e0a4d76544a7c90a47b6a7393
+      internalID: 7179304477634039974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 843
+        width: 119
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e499709705e98488fb3308ae5181df
+      internalID: -6545120056892131899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 876
+        width: 183
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25e7b5b4bc1ded439c4c71f0c423f01
+      internalID: -1539453270189824472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 891
+        width: 117
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc9c6b642622174b8bc32a1e54c59a6
+      internalID: 6486961881403266799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 893
+        width: 117
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c4c62daadd98d4ba1a9784acb411ff
+      internalID: -6225352627618344111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 897
+        width: 93
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af3487f279b63e4a8ced508d26e04cc
+      internalID: 797375240668378624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 899
+        width: 130
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66760ec6141282445b6f759eafe37853
+      internalID: 1041875931451218611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 898
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d683e8a29369d7449bee56b390c4ad55
+      internalID: -5579890808156305226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 679
+        width: 93
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3d47e27a87b77488050222bba77d51
+      internalID: -1993116240196918726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 679
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087be8b1fb1a6a74bb13b4a5df3e8784
+      internalID: 7969244156189487615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 679
+        width: 97
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277a472818ffd884bb6e1a816ff1ab5f
+      internalID: -4901935163084958478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 680
+        width: 89
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da187cb6bd651c438c775d726522240
+      internalID: -4160171031218830545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 680
+        width: 105
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c0b61184871b94ab51ea3a555f2734
+      internalID: 1207924601282956301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 682
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae28223f6a84d04a84b819dce0d8336
+      internalID: -5348520991782301995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 683
+        width: 95
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1221961c275aa4abc5b49895a1b2a0
+      internalID: 3696995081403187613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 683
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c97096ea39cd92478cde18ce4b8416c
+      internalID: -8195006181945335532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 684
+        width: 125
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2e8b6cbc26f5643ba51f39fc0cb5a6
+      internalID: -1582630951300157622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 557
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c1d070674151f4bb0e14fbc3e7de8a
+      internalID: 8317957297154878269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 557
+        width: 93
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67350222684e6145b88453da6ad334e
+      internalID: -1380528203415308957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 559
+        width: 110
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d19e1e430a94cc4080ec65cfb9e46da
+      internalID: 5219708707454251673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 560
+        width: 131
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ff30f8e5ecef341acf1a96d3aba123
+      internalID: 9116949621700654948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 561
+        width: 151
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0a0ad5932e10249a11ccff04254ba4
+      internalID: 372483079728414859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 562
+        width: 144
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d181b23ab9f50c74eb66620314f3da82
+      internalID: 9094618658551253377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 562
+        width: 145
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89911d8f3a216354499c75834e167d30
+      internalID: 8253835946411505656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 566
+        width: 132
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2826409a6c23784d846a60449790842
+      internalID: 3924352731839103774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 440
+        width: 150
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185cc3ad4295dd244859071c7d9ff3e1
+      internalID: 3694657070868097956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 440
+        width: 145
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daad08504f2133f46aef32c5895cfd68
+      internalID: 489237156650897584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 441
+        width: 147
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d9e77be71727e4b8da95d0bf6a145d
+      internalID: 8785606283883781257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 441
+        width: 147
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d28d01bf90ee6b4b92fbe009b62782a
+      internalID: -4728092518747693598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 441
+        width: 145
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1dbd882a47564469863287c16cadac
+      internalID: 4656311907825288307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 441
+        width: 145
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1cd6cc58fc72c4481a46c247fa2881
+      internalID: 4520664939586142748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 325
+        width: 148
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43863ef497e76134ebf6188dc0ac69f5
+      internalID: -219397621332706927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 325
+        width: 150
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5019a3e9804426247b814e4f27268970
+      internalID: -3843429506507111829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_33
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 325
+        width: 148
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e1a0ad3ff47e74a9d64dde4b2e3f73
+      internalID: 6460405114621663458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_34
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 333
+        width: 190
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d8c47c6488eb242ac4fd76d106673c
+      internalID: -7666433255713956440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_35
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 333
+        width: 190
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec8cd74059935d44a8cc50e45169124
+      internalID: 5608581752441490332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_36
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 340
+        width: 158
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be9bf78d886d304b8159eb0df60689c
+      internalID: -547306430963350850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 229
+        width: 199
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75727e6bc754a0d47a834f10e8e0e852
+      internalID: 5977430698860379179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_38
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 229
+        width: 180
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8071f51da1473944281354238620001b
+      internalID: 1897245054803394930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_39
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 229
+        width: 196
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0bc5a8b54862a4d9506d6ff2575b67
+      internalID: -2287981331421687961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_40
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 232
+        width: 193
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9739235c24f1c5045abdcf5596e84642
+      internalID: -5928661124046203651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_41
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 233
+        width: 196
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b96e13b9bc439f4fa0576496fd7ad20
+      internalID: 1689423994729617206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 225
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1695381b33dff464c86d67837e2856cd
+      internalID: 4049830194403935006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female_2_01_Attack_43
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 142
+        width: 225
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a3e70dd86677048aa22c601a8523fc
+      internalID: 1393276049527800415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
