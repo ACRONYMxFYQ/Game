@@ -516,6 +516,7 @@ MonoBehaviour:
   PlayerSpeed: 3.5
   isAttack: 0
   animator: {fileID: 1791376267}
+  hitcount: 0
 --- !u!95 &1791376267
 Animator:
   serializedVersion: 3
