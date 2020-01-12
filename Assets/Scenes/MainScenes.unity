@@ -164,7 +164,6 @@ GameObject:
   - component: {fileID: 445787155}
   - component: {fileID: 445787154}
   - component: {fileID: 445787157}
-  - component: {fileID: 445787158}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -250,25 +249,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1791376263}
---- !u!95 &445787158
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445787153}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c66c362aa68e7854cacbe55e20ae6953, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1366731202
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +495,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerSpeed: 3.5
   isAttack: 0
-  animator: {fileID: 1791376267}
   hitcount: 0
 --- !u!95 &1791376267
 Animator:
@@ -569,6 +548,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f61e4592e70b6b4f8ef82bdcbfd2fdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HorizontalAxis: Horizontal
+  VerticalAxis: Vertical
+  AttackButton: 
+  HorizontalValue: 0
+  VerticalValue: 0
+  IsAttack: 0
 --- !u!61 &1791376270
 BoxCollider2D:
   m_ObjectHideFlags: 0

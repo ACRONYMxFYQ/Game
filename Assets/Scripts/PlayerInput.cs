@@ -2,32 +2,43 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Gane
+namespace LS
 {
     public class PlayerInput : MonoBehaviour
     {
 
-      //  public string HorizonalAxis;
-       // public string VerticalAxis;
+        [Header("key board axis")]
+        public string HorizontalAxis;
+        public string VerticalAxis;
 
-       // public float Horizonal;
-      //  public float Vertical;
+        [Header("Press Buttons")]
+        public string AttackButton;
 
-      //  public Vector2 InputVec => new Vector2(Horizonal, Vertical);
+        //key board axis value
+        [HideInInspector] public float HorizontalValue;
+        [HideInInspector] public float VerticalValue;
 
-        // Start is called before the first frame update
-        void Start()
+        //触发信号，是否按下按钮
+        [HideInInspector] public bool IsAttack;
+
+        //持续型号，是否持续按压一个键
+
+        /// <summary>
+        /// 移动的Vector2的方向信号
+        /// </summary>
+        public Vector2 InputVec => new Vector2(HorizontalValue, VerticalValue);
+
+        private void Awake()
         {
-
+            IsAttack = false;
         }
 
-        // Update is called once per frame
-        void Update()
+        private void Update()
         {
-          //  Horizonal = Input.GetAxis(HorizonalAxis);
-        //    Vertical = Input.GetAxis(VerticalAxis);
+            HorizontalValue = Input.GetAxis(HorizontalAxis);
+            VerticalValue = Input.GetAxis(VerticalAxis);
 
-
+            IsAttack = Input.GetKeyDown(AttackButton);
         }
     }
 
