@@ -38,7 +38,7 @@ namespace LS
             HorizontalValue = Input.GetAxis(HorizontalAxis);
             VerticalValue = Input.GetAxis(VerticalAxis);
 
-            IsAttack = Input.GetKeyDown(AttackButton);
+            IsAttack = Input.GetButtonDown("Attack");
         }
     }
 

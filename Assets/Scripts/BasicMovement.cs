@@ -26,11 +26,6 @@ public class BasicMovement : MonoBehaviour
         
     }
 
-    private void Start()
-    {
-        _anim.SetBool("Ready", true);
-    }
-
     private void Update()
     {
         Movement();

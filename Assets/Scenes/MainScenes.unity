@@ -404,10 +404,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1791376265}
   - component: {fileID: 1791376264}
-  - component: {fileID: 1791376266}
   - component: {fileID: 1791376268}
   - component: {fileID: 1791376267}
   - component: {fileID: 1791376270}
+  - component: {fileID: 1791376266}
   - component: {fileID: 1791376269}
   m_Layer: 0
   m_Name: Player
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HorizontalAxis: Horizontal
   VerticalAxis: Vertical
-  AttackButton: 
+  AttackButton: Attack
   HorizontalValue: 0
   VerticalValue: 0
   IsAttack: 0
