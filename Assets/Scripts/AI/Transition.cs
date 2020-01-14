@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Game.AI
 {
-    [System.Serializable]
+    [System.Serializable,CreateAssetMenu(menuName ="AI/Transition")]
     public class Transition : ScriptableObject
     {
         public Decision Decision;

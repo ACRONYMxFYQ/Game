@@ -8,8 +8,11 @@ public class BeastMovement : MonoBehaviour
     public Animator animator;//运动器
     public GameObject player;//玩家
 
+    private SpriteRenderer _spriteRenderer;
+
     private void Awake()
     {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
     }
 
@@ -49,6 +52,12 @@ public class BeastMovement : MonoBehaviour
     public void Movement(Transform target)
     {
         transform.position = Vector3.MoveTowards(transform.position, target.position, BeastSpeed * Time.deltaTime);
+        //计算两个向量相似度
+        if (Vector3.Dot(target.position - transform.position, transform.right) < 0)
+            _spriteRenderer.flipX = true;
+        else
+            _spriteRenderer.flipX = false;
+
         animator.SetBool("Running", true);
     }
 

@@ -10,7 +10,7 @@ namespace Game.AI
 
         public State EnterState;
 
-        [HideInInspector] public State CurrentState;
+         public State CurrentState;
         [HideInInspector] public State PreviousState;
 
         #region MonoBehaviour Callbacks

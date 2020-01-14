@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7bf8710d34ce91468abd2a4b26ecfa3, type: 3}
-  m_Name: WalkState
+  m_Script: {fileID: 11500000, guid: 790cc4045bb04a04c9bd884f3c1097b3, type: 3}
+  m_Name: FollowState
   m_EditorClassIdentifier: 
   Actions:
-  - {fileID: 11400000, guid: f0fd1039435098c4d9860e15f5ac173a, type: 2}
-  Transitions: []
+  - {fileID: 11400000, guid: 484e2e88ed086364085c58d77150c3ea, type: 2}
+  Transitions:
+  - {fileID: 11400000, guid: 256aacb3acdffe0468620bcc647fc588, type: 2}
