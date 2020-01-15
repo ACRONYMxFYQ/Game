@@ -11,14 +11,13 @@ namespace Game.Enemies.Beast.AI
     {
         public override void OnEnter(FSMControllerBase controller)
         {
-            var col = controller as BeastFSM;
-            if (col.TargetGameObject == null)
-                col.TranslateState(col.PreviousState);
+            if (controller.TargetGameObject == null)
+                controller.TranslateState(controller.PreviousState);
         }
 
         public override void OnExit(FSMControllerBase controller)
         {
-            (controller as BeastFSM).TargetGameObject = null;
+            controller.TargetGameObject = null;
         }
     }
 

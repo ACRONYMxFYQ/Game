@@ -10,8 +10,7 @@ namespace Game.Enemies.Beast.AI
     {
         public override void Act(FSMControllerBase controller)
         {
-            var col = controller as BeastFSM;
-            col.Movement.Movement(col.TargetGameObject.transform);
+            (controller as BeastFSM).Movement.Movement(controller.TargetGameObject.transform);
         }
 
     }

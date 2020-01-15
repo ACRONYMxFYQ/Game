@@ -12,15 +12,17 @@ namespace Game.AI
 
          public State CurrentState;
         [HideInInspector] public State PreviousState;
+        /// <summary> 目标对象，不具体指向某一GameObject，根据需求进行变化 </summary>
+        public GameObject TargetGameObject;
 
         #region MonoBehaviour Callbacks
 
         private void Start()
         {
+            OnStart();
+
             CurrentState = EnterState;
             CurrentState.OnEnter(this);
-
-            OnStart();
         }
 
         private void Update()
