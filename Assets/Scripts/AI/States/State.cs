@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace Game.AI.States
 {
-
     public class State : ScriptableObject
     {
         public Action[] Actions;

@@ -14,7 +14,8 @@ namespace Game.Enemies.Beast.AI
 
         public override bool Decide(FSMControllerBase controlller)
         {
-            if ((controlller.TargetGameObject.transform.position - controlller.transform.position).sqrMagnitude < SqrLostDistance)
+            var col = controlller as BeastFSM;
+            if ((col.TargetGameObject.transform.position - controlller.transform.position).sqrMagnitude < SqrLostDistance)
                 return false;
             return true;
         }
