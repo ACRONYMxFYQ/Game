@@ -21,9 +21,7 @@ public class BasicMovement : MonoBehaviour
     {
         _input = GetComponent<PlayerInput>();
         _anim = GetComponent<Animator>();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-
-        
+        _spriteRenderer = GetComponent<SpriteRenderer>();        
     }
 
     private void Update()
@@ -61,26 +59,23 @@ public class BasicMovement : MonoBehaviour
         transform.Translate(Vector3.right * _input.HorizontalValue * PlayerSpeed * Time.deltaTime, Space.World);
         transform.Translate(Vector3.up * _input.VerticalValue * PlayerSpeed * Time.deltaTime, Space.World);
 
+
+        //Sprite的方向
+        //_spriteRenderer.flipX = _input.HorizontalValue < 0 ? true : false;
+        if (_input.HorizontalValue != 0)//方向
+            _spriteRenderer.transform.localScale = new Vector3(_input.HorizontalValue, 1, 1);
+
         //动画
         if (_input.VerticalValue != 0 || _input.HorizontalValue != 0)
             _anim.SetBool("Moving", true);
         else
             _anim.SetBool("Moving", false);
 
-        //Sprite的方向
-        _spriteRenderer.flipX = _input.HorizontalValue < 0 ? true : false;
     }
     #endregion
 
     public void PlayerMoving(float x, float y, GameObject monster)//人物移动 + 朝向 函数
     {
-
-
-        if (monster != null)
-            _anim.SetBool("Ready", true);
-        else
-            _anim.SetBool("Ready", false);
-
 
         transform.Translate(Vector3.right * x * PlayerSpeed * Time.deltaTime, Space.World);
         transform.Translate(Vector3.up * y * PlayerSpeed * Time.deltaTime, Space.World);//取x y 坐标

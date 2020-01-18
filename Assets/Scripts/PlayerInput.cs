@@ -35,8 +35,9 @@ namespace LS
 
         private void Update()
         {
-            HorizontalValue = Input.GetAxis(HorizontalAxis);
-            VerticalValue = Input.GetAxis(VerticalAxis);
+            HorizontalValue = Input.GetAxisRaw(HorizontalAxis);
+            //HorizontalValue = Input.GetAxis(HorizontalAxis); 浮点数不行 所以用GetAxisRaw 区别一个 -1~0~1小数变化 一个只有 0 1 -1
+            VerticalValue = Input.GetAxisRaw(VerticalAxis);
 
             IsAttack = Input.GetButtonDown("Attack");
         }
