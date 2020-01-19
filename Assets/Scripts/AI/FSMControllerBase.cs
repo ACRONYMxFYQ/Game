@@ -5,53 +5,70 @@ using UnityEngine;
 
 namespace Game.AI
 {
-    public class FSMControllerBase : MonoBehaviour
+
+    public class FSMControllerBase<T>
     {
+        public IState<T> CurrentState { get; protected set; }
+        public IState<T> EntryState { get; set; }
+        private readonly T _owner;
+        private readonly Dictionary<string, IState<T>> _stateDic;
 
-        public State EnterState;
-
-         public State CurrentState;
-        [HideInInspector] public State PreviousState;
-
-        #region MonoBehaviour Callbacks
-
-        private void Start()
+        public FSMControllerBase(T o, IState<T> entry=null)
         {
-            CurrentState = EnterState;
-            CurrentState.OnEnter(this);
-
-            OnStart();
+            _owner = o;
+            EntryState = entry;
+            _stateDic = new Dictionary<string, IState<T>>();
         }
 
-        private void Update()
+        public void Start()
         {
-            if (CurrentState != null)
-                CurrentState.OnUpdate(this);
-
-            OnUpdate();
+            if(EntryState!=null)
+            {
+                CurrentState = EntryState;
+                CurrentState.OnEnter(_owner);
+            }
         }
 
-        #endregion
-
-        public void TranslateState(State nextState)
+        public void Update()
         {
-            CurrentState.OnExit(this);
-            nextState.OnEnter(this);
-            PreviousState = CurrentState;
-            CurrentState = nextState;
+            if(CurrentState!=null)
+            {
+                CurrentState.OnUpdate(_owner);
+            }
         }
 
-        #region Virtual Methods
-        protected virtual void OnStart()
+        public void ChangeState(string name)
         {
-
+            if(!_stateDic.ContainsKey(name))
+            {
+                Debug.LogError("FSMController/ChangeState Error : the name of state is invalid value");
+                return;
+            }
+            if(CurrentState!=null)
+            {
+                CurrentState.OnExit(_owner);
+                CurrentState = _stateDic[name];
+                CurrentState.OnEnter(_owner);
+            }
         }
 
-        protected virtual void OnUpdate()
+        public void AddState(string name, IState<T> state)
         {
-
+            if(_stateDic.ContainsKey(name))
+            {
+                Debug.LogWarning("FSMController/AddState Warning : the name of state is exist !");
+                return;
+            }
+            _stateDic.Add(name, state);
         }
-        #endregion
+
+        public void RemoveState(string name)
+        {
+            if (_stateDic.ContainsKey(name))
+                _stateDic.Remove(name);
+            else
+                Debug.LogError("FSMController/RemoveState Error : the name of state is invalid value");
+        }
     }
-
+   
 }

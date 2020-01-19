@@ -4,52 +4,41 @@ using UnityEngine;
 
 namespace Game.AI.States
 {
-    public class State : ScriptableObject
+
+    public delegate void StateEventHandle<T>(T controller);
+
+    public interface IState<T>
     {
-        public Action[] Actions;
-        public Transition[] Transitions;
+        void OnEnter(T controller);
+        void OnUpdate(T controller);
+        void OnExit(T controller);
+    }
 
-        public virtual void OnEnter(FSMControllerBase controller)
+    public class State<T> : IState<T>
+    {
+
+        public string StateName { get; protected set; }
+        public event StateEventHandle<T> UpdateEvent;
+
+        public State(string name, StateEventHandle<T> action = null)
         {
-
+            StateName = name;
+            UpdateEvent = action;
         }
 
-        public virtual void OnUpdate(FSMControllerBase controller)
+
+        public virtual void OnEnter(T controller)
         {
-            DoActions(controller);
-            CheckedTransition(controller);
+        }
+        public virtual void OnUpdate(T controller)
+        {
+            UpdateEvent?.Invoke(controller);
         }
 
-        public virtual void OnExit(FSMControllerBase controller)
+        public virtual void OnExit(T controller)
         {
-
         }
 
-        private void DoActions(FSMControllerBase controlller)
-        {
-            for (int i = 0; i < Actions.Length; i++)
-                Actions[i].Act(controlller);
-        }
-
-        private void CheckedTransition(FSMControllerBase controlller)
-        {
-            foreach(var cell in Transitions)
-            {
-                bool res = cell.Decision.Decide(controlller);
-                if(res)
-                {
-                    if (cell.TrueState == null)
-                        continue;
-                    controlller.TranslateState(cell.TrueState);
-                }
-                else
-                {
-                    if (cell.FalseState == null)
-                        continue;
-                    controlller.TranslateState(cell.FalseState);
-                }
-            }
-        }
 
     }
 

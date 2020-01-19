@@ -624,16 +624,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9de87b299fc0e4a478bbf95f8cef9b8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnterState: {fileID: 11400000, guid: 7aec642c84c01df498922f128e6fe084, type: 2}
-  CurrentState: {fileID: 0}
-  PreviousState: {fileID: 0}
-  TargetGameObject: {fileID: 0}
+  SqrLostDistance: 20
+  CheckRadius: 3.5
   PartolPoints:
   - {fileID: 1090756561}
   - {fileID: 189865129}
   - {fileID: 149614852}
   PartolIndex: 0
   Movement: {fileID: 0}
+  TargetGameObject: {fileID: 1791376263}
 --- !u!114 &1366731210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -782,7 +781,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791376263}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.41, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
